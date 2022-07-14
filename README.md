@@ -1,2 +1,2 @@
-# test-2022
+# gmtk-2022
 Test for Git
