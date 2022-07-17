@@ -376,18 +376,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1920137388208072752, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418106889696941, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 280
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418106889696941, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -295
-      objectReference: {fileID: 0}
     - target: {fileID: 7483418107592045552, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -472,109 +460,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7483418107592045556, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Melee_Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Ranged_Attack_Button","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Move_Button","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"next_button_button","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PassButton","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418107592045556, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418107592045556, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: _data._objectReferences.Array.data[4]
-      value: 
-      objectReference: {fileID: 7483418108137784343}
     - target: {fileID: 7483418107592045558, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
       propertyPath: m_Name
       value: In_Game_UI
       objectReference: {fileID: 0}
-    - target: {fileID: 7483418107928792436, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 80ac56678ff5d6e4fac9d0cb3d4a9147, type: 3}
-    - target: {fileID: 7483418107928792436, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418107928792436, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418107928792436, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418107928792438, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 280
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418107928792438, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 280
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418108075956070, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0b1705115b6384a48a1dede38e3726de, type: 3}
-    - target: {fileID: 7483418108075956070, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418108075956070, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418108075956070, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418108388032427, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 1ea244b3522bf774e9cc9bca7998591c, type: 3}
-    - target: {fileID: 7483418108388032427, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418108388032427, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7483418108388032427, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7572081797273696552, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: b0b8c18debd58924cb0356b229420682, type: 3}
-    - target: {fileID: 7572081797273696552, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7572081797273696552, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7572081797273696552, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
---- !u!114 &7483418108137784343 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8658992246107613361, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
-  m_PrefabInstance: {fileID: 7483418108137784342}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
