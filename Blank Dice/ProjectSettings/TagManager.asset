@@ -37,10 +37,13 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - PostProcess
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 503087861
     locked: 0
   - name: Ground
     uniqueID: 2849969677
@@ -53,4 +56,7 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 2006884741
+    locked: 0
+  - name: Particles
+    uniqueID: 3403884993
     locked: 0

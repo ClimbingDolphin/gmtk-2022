@@ -21,43 +21,41 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: -1702942851, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 0.125
+    - time: 0.1
       value: {fileID: -2040472882, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 0.25
+    - time: 0.2
       value: {fileID: -1557793371, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 0.375
+    - time: 0.3
       value: {fileID: -1849281759, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
+    - time: 0.4
+      value: {fileID: 2076311320, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
     - time: 0.5
-      value: {fileID: 2076311320, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 0.625
       value: {fileID: 2028832212, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 0.75
+    - time: 0.6
       value: {fileID: 2076311320, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 0.875
+    - time: 0.7
       value: {fileID: -1849281759, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1
+    - time: 0.8
       value: {fileID: -1557793371, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.125
+    - time: 0.9
       value: {fileID: -2040472882, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.25
+    - time: 1
       value: {fileID: -1702942851, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.375
+    - time: 1.1
       value: {fileID: 1276276438, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.5
+    - time: 1.2
       value: {fileID: 915418219, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.625
+    - time: 1.3
       value: {fileID: -32442815, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.75
+    - time: 1.4
       value: {fileID: 915418219, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 1.875
+    - time: 1.5
       value: {fileID: 1276276438, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - time: 2
-      value: {fileID: -1702942851, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
     attribute: m_Sprite
-    path: Canvas/Monster_2
+    path: Canvas/Background/Monster_2
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_SampleRate: 80
+  m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -65,7 +63,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 4126953957
+      path: 3149866076
       attribute: 2015549526
       script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
       typeID: 114
@@ -88,13 +86,12 @@ AnimationClip:
     - {fileID: -32442815, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
     - {fileID: 915418219, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
     - {fileID: 1276276438, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
-    - {fileID: -1702942851, guid: c135bbe87f4d40a44ba2170ca7a80f62, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.0125
+    m_StopTime: 1.6
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
