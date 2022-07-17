@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5681513502385014125}
   - component: {fileID: 5681513502385014124}
   - component: {fileID: 5681513502385014115}
-  - component: {fileID: 5681513502385014127}
+  - component: {fileID: 1185465031090605321}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -120,7 +120,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 1082cccdb6eaa5a428c8ec21e9f2f6c6, type: 2}
---- !u!61 &5681513502385014127
+--- !u!61 &1185465031090605321
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,5 +144,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.3, y: 0.3}
   m_EdgeRadius: 0
