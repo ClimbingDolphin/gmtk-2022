@@ -1623,6 +1623,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &116489902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7483418107592045558, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
+  m_PrefabInstance: {fileID: 1581503624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &180296690 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7483418108075956089, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
@@ -1722,6 +1727,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd10109f222273943b9d0b3010e9ee38, type: 3}
+--- !u!1 &458012554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7483418107285730230, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
+  m_PrefabInstance: {fileID: 1581503624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &508208822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 401330236123291261, guid: 1333e5484397c634b99c5579acb5c6a5, type: 3}
+  m_PrefabInstance: {fileID: 401330237143359326}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,6 +2077,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &691511145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5903002484846714739, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
+  m_PrefabInstance: {fileID: 1581503624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &742302712 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 899715676, guid: 5de249a42f1ff684dbfa8e71ed4521e3, type: 3}
+  m_PrefabInstance: {fileID: 1581503624}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &967857273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2069,6 +2100,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1740573385, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 508208822}
+    - target: {fileID: 1740573385, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 116489902}
     - target: {fileID: 7551870115741479444, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2113,6 +2152,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7551870115741479445, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WaitBeforeEnemiesTurn","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player_UI","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Turn_Text","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player_Turn_Sprite","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Enemy_Turn_Sprite","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7551870115741479445, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7551870115741479445, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 116489902}
+    - target: {fileID: 7551870115741479445, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 742302712}
+    - target: {fileID: 7551870115741479445, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 691511145}
+    - target: {fileID: 7551870115741479445, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 458012554}
     - target: {fileID: 7551870115741479447, guid: d7f61421b24411641934ba76ffdcdec4, type: 3}
       propertyPath: m_Name
       value: GameManager
