@@ -8389,6 +8389,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level2
       objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 40bec56f3787e874ea8dff1350f0c73a, type: 3}
     - target: {fileID: 3558809041663127439, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LevelIndex","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -8902,6 +8910,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level3
       objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4e14c8cf86a9ead4fab1d7545f223cd0, type: 3}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9125261
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.63584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3558809041663127439, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LevelIndex","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -9010,6 +9038,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level1
       objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558809041663127434, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 91281060c212bc44cbe81c92f6a5642a, type: 3}
     - target: {fileID: 3558809041663127439, guid: 784abb36625fe64478fde6b8fb09b96a, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LevelIndex","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
