@@ -1975,7 +1975,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2156,6 +2156,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1185465031090605321, guid: bd10109f222273943b9d0b3010e9ee38, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5681513502385014114, guid: bd10109f222273943b9d0b3010e9ee38, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -8366,9 +8370,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2404101936889605404, guid: dbd5f68a400c6f0429fec75450988113, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450531709172499561, guid: dbd5f68a400c6f0429fec75450988113, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3886605186407372827, guid: dbd5f68a400c6f0429fec75450988113, type: 3}
       propertyPath: m_Name
       value: GameCore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204104327117653695, guid: dbd5f68a400c6f0429fec75450988113, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -542.9803
       objectReference: {fileID: 0}
     - target: {fileID: 7512928990710030853, guid: dbd5f68a400c6f0429fec75450988113, type: 3}
       propertyPath: m_RootOrder
